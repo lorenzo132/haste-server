@@ -5,9 +5,9 @@
 
   "keyLength": 10,
 
-  "maxLength": 4000000000000,
+  "maxLength": 400000000000,
 
-  "staticMaxAge": 864000000000000000,
+  "staticMaxAge": 8640000000000000,
 
   "recompressStaticAssets": true,
 
@@ -27,7 +27,7 @@
     "categories": {
       "normal": {
         "totalRequests": 200,
-        "every": 36000
+        "every": 360000
       }
     }
   },
@@ -35,10 +35,10 @@
 
   "storage": { 
    "type": "amazon-s3",
-   "bucket": "my-cool-bucket",
-   "endpoint": "my-amazing-cdn-endpoint",
-   "keyId": "my-key-here",
-   "keySecret": "my-secret-here"
+   "bucket": "hastebin-cc",
+   "endpoint": "s3.eu-central-003.backblazeb2.com",
+   "keyId": "003724e48bbec54000000000a",
+   "keySecret": "K003EuyJK5gMqr0t/sNUZ7wDjQ8bORU"
   },
 
   "documents": {
